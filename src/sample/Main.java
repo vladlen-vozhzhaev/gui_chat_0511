@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Клиент сетевого чата");
-        primaryStage.setScene(new Scene(root, 275, 300));
+        primaryStage.setScene(new Scene(root, 400, 300));
         primaryStage.show();
         primaryStage.setOnCloseRequest(e -> {
             Platform.exit();
